@@ -5,7 +5,7 @@ const EventsExample = () => {
     const changeHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
         setValue(e.target.value);
     }
-        function clickHandler(e: React.MouseEvent<HTMLButtonElement>) {
+        function clickHandler() {
             console.log(value);
         }
     return (
